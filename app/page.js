@@ -102,7 +102,7 @@ export default function HomePage() {
             <span>
               Sharqia – Faqous – Kafr El Adawy Street
               <br />
-              in front of Cafe 9A
+              in front of 9A Cafe
             </span>
           </div>
         </div>
