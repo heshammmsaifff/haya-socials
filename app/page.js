@@ -80,7 +80,7 @@ export default function HomePage() {
           <div className="flex items-center gap-3 justify-center">
             <FaPhoneAlt className="text-base" />
             <a href="tel:01000324367" className="hover:opacity-100 transition">
-              010-00-32-4367
+              010-33-37-22-78
             </a>
           </div>
 
