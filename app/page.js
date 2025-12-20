@@ -16,7 +16,7 @@ export default function HomePage() {
     // GSAP subtle floating animation for logo
     gsap.to(logoRef.current, {
       y: 10,
-      duration: 3,
+      duration: 2,
       repeat: -1,
       yoyo: true,
       ease: "power1.inOut",
@@ -37,8 +37,8 @@ export default function HomePage() {
             src="/logo.png"
             alt="Your Brand Logo"
             width={400}
-            height={5}
-            className="-mt-20 -mb-20"
+            height={100}
+            className="-mt-10"
             priority
           />
         </div>
@@ -78,7 +78,7 @@ export default function HomePage() {
 
         {/* Location */}
         <motion.a
-          href="#"
+          href="https://www.google.com/maps/place/30%C2%B043'33.8%22N+31%C2%B047'18.2%22E/@30.7260492,31.7858226,600m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d30.7260492!4d31.7883975?hl=en&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D"
           target="_blank"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 0.8, y: 0 }}
