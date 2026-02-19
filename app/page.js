@@ -99,7 +99,7 @@ export default function HomePage() {
           {/* Phone */}
           <div className="flex items-center gap-3 justify-center">
             <FaPhoneAlt />
-            <a href="tel:01000324367">010-33-37-22-78</a>
+            <a href="tel:01033372278">010-33-37-22-78</a>
           </div>
 
           {/* WhatsApp */}
